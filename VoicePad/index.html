@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech-to-Text Pad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>VoicePad</h1>
+    <h3>—Your speech deserves to be saved</h3>
+    <button class = "btn start">Start</button>
+    <button class = "btn stop">Stop</button>
+    <p class = "status">Not Listening</p>
+
+    <div>
+        <h2>Processing...</h2>
+        <textarea class = "transcript" rows = "6" cols = "50" placeholder = "Your speech will appear here..."></textarea>
+    </div>
+    <button class = "btn save">Save</button>
+    <div>
+        <h2>Saved Notes</h2>
+        <ul class = "notes"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
